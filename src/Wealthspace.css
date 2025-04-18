@@ -1,0 +1,196 @@
+
+*{
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+.BabaWealth{
+    font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+ 
+}
+.Tge-bar{
+    margin: 20px !important;
+}
+.BabaWealth434{
+    background-image: url(../public/images/thebackground.jpg) !important;
+    background-repeat: no-repeat; 
+     background-size:cover;
+     background-position: center;
+     height:90vh;
+     margin: 0;
+     padding: 0;
+}
+.HeadONe{
+    top:-90px;
+    margin:'100px';
+    position: relative;
+    /* left:60px; */
+    margin-bottom: 90px;
+}
+.HeadONe p{
+    margin-bottom: 30px;
+    margin: 80px 50px;
+}
+.HeadONe h1{
+   font-size: 60px;
+   margin-bottom:70px;
+   margin:120px 50px;
+   position: relative;
+   top: 80px;
+}
+.HeadONe button{
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    background-color: lightgreen;
+    border: none;
+    font-weight:700;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+}
+.HeadTWo{
+    margin-bottom:120px !important;
+    margin: 10px 80px;
+    display: flex;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.HeadTWo h3{
+    font-size: 30px;
+    color: rgb(39, 213, 39);
+}
+.HeadTWo p{
+    font-weight: 700;
+}
+.HeadThree{
+    margin:250px 80px;
+}
+.HeadThree-sub1{
+    text-align: center;
+}
+.HeadThree-sub1 h3{
+    font-size: 25px;
+}
+.HeadThree-sub2{
+    display: flex;
+    justify-content: space-between;
+}
+.HeadThree-sub2 img{
+    max-width:250px;
+    min-height:40vh;
+    border-radius: 10px;
+    box-shadow:rgba(0, 0, 0, 0.516) 0px 10px 35px 1px;
+}
+.HeadThree-sub2-sub1{
+    border:0.2px solid black;
+    padding: 20px;
+    border-radius:25px;
+}
+.HeadFour{
+    margin:20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.HeadFour-sub1{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    left: 40px;
+   
+}
+.HeadFour-sub1 img{
+    max-width:320px;
+    min-height:45vh;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.thehouse2{
+    position: relative;
+    top: -80px;
+    left: 50px;
+}
+.GHoli{
+    position: relative;
+    left:-40px;
+}
+.GHoli h2{
+    font-size:50px;
+}
+.Holi li{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+.PropSell{
+    display: flex;
+    gap: 55%;
+    margin: 40px;
+    
+    /* justify-content: space-evenly; */
+}
+.PropSell h2{
+    font-size: 40px;
+}
+.PropSell p{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.PropSell p:hover{
+    cursor: pointer;
+    color: green;
+    font-weight: 700;
+}
+.htyhtih{
+    margin: 20px 60px;
+}
+.minitb{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    position: relative;
+    left:6em;
+
+}
+.minitb h2{
+    text-align: left;
+
+}
+.minifirsttb{
+    text-align: left !important;
+    margin: 20px;
+}
+.headtb{
+    /* align-items: center; */
+    margin:90px 23px;
+    text-align: center;
+}
+.firstoffirsttb p{
+    color: green;
+    font-weight: 600;
+    margin:40px 0;
+    background-color: rgba(0, 128, 0, 0.359);
+    max-width:30%;
+    position:relative;
+    left: 80px;
+    border-radius:20px;
+    padding:10px 0;
+}
+.firstoffirsttb2 p{
+    color: rgb(213, 38, 38);
+    font-weight: 700;
+    margin:40px 0;
+    background-color: rgba(255, 0, 0, 0.428);
+    max-width:30%;
+    position:relative;
+    left: 80px;
+    border-radius:20px;
+    padding:10px 0;    
+}

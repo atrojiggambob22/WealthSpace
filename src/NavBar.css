@@ -1,0 +1,63 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Navigation menu */
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #f4a261;
+  }
+  
+  /* Hamburger menu (hidden by default) */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: #222;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
