@@ -1,4 +1,4 @@
-/* Navbar container */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     padding: 15px 20px;
   }
   
-  /* Logo */
+
   .logo {
     font-size: 20px;
     font-weight: bold;
   }
   
-  /* Navigation menu */
+
   .menu {
     display: flex;
     gap: 20px;
@@ -28,17 +28,17 @@
   }
   
   .menu a:hover {
-    color: #f4a261;
+    color: #ffffff;
   }
   
-  /* Hamburger menu (hidden by default) */
+
   .hamburger {
     display: none;
     font-size: 24px;
     cursor: pointer;
   }
   
-  /* Responsive Styles */
+
   @media screen and (max-width: 768px) {
     .menu {
       display: none;
@@ -50,6 +50,7 @@
       width: 100%;
       text-align: center;
       padding: 10px 0;
+      z-index: 1000;
     }
   
     .menu.open {
