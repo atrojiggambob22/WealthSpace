@@ -4,6 +4,7 @@ import House2 from '../public/images/House2.jpg'
 import House3 from '../public/images/House3.jpg' 
 import NavBar from './NavBar.jsx'
 
+
 import './Wealthspace.css'
 
 
@@ -57,7 +58,7 @@ const TheWealth=()=>{
                   <h3>Lekki Phase 1</h3>
                   <div>
                     <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    
                       <h4>5Bed</h4>
                     </div>
                     <div>
@@ -70,7 +71,7 @@ const TheWealth=()=>{
                       <h4>200ft</h4>
                     </div>
                   <div>
-                    <h3>Price: #3,000,000</h3>
+                    <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
@@ -93,7 +94,7 @@ const TheWealth=()=>{
                       <h4>200ft</h4>
                     </div>
                   <div>
-                    <h3>Price: #3,000,000</h3>
+                    <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
@@ -117,7 +118,7 @@ const TheWealth=()=>{
                       <h4>200ft</h4>
                     </div>
                   <div>
-                    <h3>Price: #3,000,000</h3>
+                    <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
@@ -154,6 +155,29 @@ const TheWealth=()=>{
             </div>
           </div>
         <div className='HeadThree-sub2 htyhtih'>
+        <div className='HeadThree-sub2-sub1'>
+                <img src={House1} alt="" />
+                <div>
+                  <h3>Lekki Phase 1</h3>
+                  <div>
+                    <div>
+                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                      <h4>5Bed</h4>
+                    </div>
+                    <div>
+                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                      <h4>4 Toilets</h4>
+                    </div>
+                  </div>
+                  <div>
+                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                      <h4>200ft</h4>
+                    </div>
+                  <div>
+                    <h3>Price: ₦3,000,000</h3>
+                  </div>
+                </div>
+              </div>
               <div className='HeadThree-sub2-sub1'>
                 <img src={House1} alt="" />
                 <div>
@@ -173,7 +197,7 @@ const TheWealth=()=>{
                       <h4>200ft</h4>
                     </div>
                   <div>
-                    <h3>Price: #3,000,000</h3>
+                    <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
@@ -196,7 +220,7 @@ const TheWealth=()=>{
                       <h4>200ft</h4>
                     </div>
                   <div>
-                    <h3>Price: #3,000,000</h3>
+                    <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
@@ -220,7 +244,7 @@ const TheWealth=()=>{
                       <h4>200ft</h4>
                     </div>
                   <div>
-                    <h3>Price: #3,000,000</h3>
+                    <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
@@ -233,8 +257,11 @@ const TheWealth=()=>{
             <div className='firstoffirsttb'>
 
             <div className='minifirsttb'>
-              <div><h3>Top Gainers</h3> </div>
+              <div className='TopGaimer'>
+                <h3>Top Gainers</h3> 
               <div>04/2025</div>
+              
+              </div>
             </div>
             <div className="minitb" >
               <div><h2>SYDNEY ESTATE</h2></div>
@@ -261,8 +288,11 @@ const TheWealth=()=>{
             
             <div className='headtb firstoffirsttb2' >
             <div className='minifirsttb'>
-              <div> <h3>Top Gainers</h3> </div>
-              <div>04/2025</div>
+              <div className='TopGaimer'> 
+                <h3>Top Gainers</h3>
+                <div>04/2025</div>
+                </div>
+              
             </div>
             <div className="minitb" >
               <div><h2>YABATECH GRA</h2></div>
