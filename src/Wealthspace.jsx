@@ -3,9 +3,12 @@ import House1 from '../public/images/House1.png'
 import House2 from '../public/images/House2.jpg' 
 import House3 from '../public/images/House3.jpg' 
 import NavBar from './NavBar.jsx'
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBed,faToilet,faSquare,faBuilding,faWarehouse,faHome,faStore,faHouseChimney, faStar, faStarHalf, faLocation, faLocationPin, faLocationPinLock, faMapLocationDot, faLocationArrow} from '@fortawesome/free-solid-svg-icons'; 
 import './Wealthspace.css'
+import { Warehouse } from 'lucide-react'
+import ContactForm from './ContactForm.jsx'
+
 
 
 const Wealthspace = () => {
@@ -25,13 +28,14 @@ const TheWealth=()=>{
 
     <div>
       <div>
+
         <div className='HeadONe  BabaWealth434'>
-          <h1>Find your most suitable <br />Apartment</h1>
+          <h1>Find your most <br />suitable Apartment</h1>
           <p>Huge number of Houses here to Buy,Sell and Rent,There are <br /> Also properties ou can Co-live in.So there are a lot  of opportunity to grab</p>
           <button>Contact Us</button>
         </div>
 
-        <div className='HeadTWo'>
+        {/* <div className='HeadTWo'>
           <div><h3>+300</h3>
           <p>Available Houses</p></div>
 
@@ -43,7 +47,69 @@ const TheWealth=()=>{
 
           <div><h3>+1k</h3>
           <p>Houses Sold</p></div>
-        </div>
+        </div> */}
+
+          <div className='AprtTypes'>
+            <div className='Aprtsub-2'>
+              <h3>Property by requirement</h3>
+              <p>Explore Apartment <span style={{color:'green'}}>Types</span></p>
+            </div>
+            <div className='Aprtsub2'>
+              <div className='Aprtsub2-111'>
+                <div className='Asub22-min2'>
+                  <FontAwesomeIcon icon={faBuilding}/>
+                </div>
+                <div className='Asub2-min3'>
+                  <h3>
+                    Commercial 
+                  </h3>
+                  <p>6 Properties</p>
+                </div>
+              </div>
+
+               <div className='Aprtsub2-111'>
+                <div className='Asub22-min2'>
+                  <FontAwesomeIcon icon={faHouseChimney}/>
+                </div>
+                <div className='Asub2-min3'>
+                  <h3>Villa</h3>
+                 <p>6 Properties</p>
+                </div>
+              </div>
+
+              <div className='Aprtsub2-111'>
+                <div className='Asub22-min2'>
+                  <FontAwesomeIcon icon={faWarehouse}/>
+                </div>
+                <div className='Asub2-min3'>
+                  <h3>Warehouse</h3>
+                  <p>6 Properties</p>
+                </div>
+              </div>
+             
+              <div className='Aprtsub2-111'>
+                <div className='Asub22-min2'>
+                  <FontAwesomeIcon icon={faHome}/>
+                </div>
+                <div className='Asub2-min3'>
+                  <h3>Apartment</h3>
+                  <p>6 Properties</p>
+                </div>
+              </div>
+
+              <div className='Aprtsub2-111'>
+                <div className='Asub22-min2'>
+                  <FontAwesomeIcon icon={faStore}/>
+                </div>
+                <div className='Asub2-min3'>
+                  <h3>HomeStay</h3>
+                 <p>6 Properties</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
 
         <div className='HeadThree'>
             <div className='HeadThree-sub1'>
@@ -51,46 +117,30 @@ const TheWealth=()=>{
               <h3>Popular Properties</h3>
             </div>
 
-            <div className='HeadThree-sub2'>
-              <div className='HeadThree-sub2-sub1'>
+              <div className='thheheadsss'>
+                   <div className='HeadThree-sub2'>
+              <div className='ehadione'>
                 <img src={House1} alt="" />
-                <div>
+                <div className='firstphase'>
                   <h3>Lekki Phase 1</h3>
                   <div>
-                    <div>
-                    
+                    <div className='threeheads22'>
+                    <div className='iccon'>
+                      <FontAwesomeIcon icon={faBed}/>
+                    </div>
                       <h4>5Bed</h4>
                     </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    <div className='threeheads22'>
+                      <div className='iccon'>
+                        <FontAwesomeIcon icon={faToilet}/>
+                      </div>
                       <h4>4 Toilets</h4>
                     </div>
                   </div>
-                  <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>200ft</h4>
-                    </div>
-                  <div>
-                    <h3>Price: ₦3,000,000</h3>
-                  </div>
-                </div>
-              </div>
-              <div className='HeadThree-sub2-sub1'>
-                <img src={House2} alt="" />
-              <div>
-                  <h3>Lekki Phase 1</h3>
-                  <div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>5Bed</h4>
-                    </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>4 Toilets</h4>
-                    </div>
-                  </div>
-                  <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                  <div className='threeheads22'>
+                      <div className='iccon' >
+                      <FontAwesomeIcon icon={faSquare}/>
+                      </div>
                       <h4>200ft</h4>
                     </div>
                   <div>
@@ -99,22 +149,59 @@ const TheWealth=()=>{
                 </div>
               </div>
 
-              <div className='HeadThree-sub2-sub1'>
+              <div className='ehadione ediitrerf'>
+               
+              <div>
+                  <h3>Lekki Phase 1</h3>
+                  <div>
+                    <div className='threeheads22'>
+                      <div className='iccon'>
+                        <FontAwesomeIcon icon={faBed}/>
+                      </div>
+                      <h4>5Bed</h4>
+                    </div>
+                    <div className='threeheads22'>
+                      <div className='iccon'>
+                        <FontAwesomeIcon icon={faToilet}/>
+                      </div>
+                      <h4>4 Toilets</h4>
+                    </div>
+                  </div>
+                  <div className='threeheads22'>
+                      <div className='iccon'>
+                      <FontAwesomeIcon icon={faSquare}/>
+                      </div>
+                      <h4>200ft</h4>
+                    </div>
+                  <div>
+                    <h3>Price: ₦3,000,000</h3>
+                  </div>
+                </div >
+                 <img src={House2} alt="" className='firstphaseimg' />
+              </div>
+
+              <div className='ehadione'>
                 <img src={House3} alt="" />
-              <div>
+              <div className='firstphase'>
                   <h3>Lekki Phase 1</h3>
                   <div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    <div className='threeheads22'>
+                      <div className='iccon'>
+                        <FontAwesomeIcon icon={faBed}/>
+                      </div>
                       <h4>5Bed</h4>
                     </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    <div className='threeheads22'>
+                       <div className='iccon'>
+                        <FontAwesomeIcon icon={faToilet}/>
+                      </div>
                       <h4>4 Toilets</h4>
                     </div>
                   </div>
-                  <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                  <div className='threeheads22'>
+                      <div className='iccon'>
+                      <FontAwesomeIcon icon={faSquare}/>
+                      </div>
                       <h4>200ft</h4>
                     </div>
                   <div>
@@ -125,25 +212,12 @@ const TheWealth=()=>{
 
 
             </div>
+              </div>
+           
         </div>
 
 
-        <div className='HeadFour'>
-          <div className='HeadFour-sub1'>
-            <img src={House1} alt="" />
-            <img src={House1} alt="" className='thehouse2' />
-          </div>
-          <div className='GHoli'>
-            <h2>Who Are We?</h2>
-            <p>At Wealth Space Limited, we pride ourselves on <br />our commitment to exceptional service and <br />deep market  knowledge</p>
-            <div className='Holi'>
-              <li>Expertise and Experience</li>
-              <li>integrity and Transparency  </li>
-              <li>Client-Centric Approach</li>
-              <li>Innovative Marketing Strategies </li>
-            </div>
-          </div>
-        </div>
+       
 
         <div>
           <div className='PropSell'>
@@ -154,104 +228,200 @@ const TheWealth=()=>{
               <p>Rent</p>
             </div>
           </div>
+
         <div className='HeadThree-sub2 htyhtih'>
-        <div className='HeadThree-sub2-sub1'>
+
+        <div className='HeadThree-sub2-sub1 subsosubsss'>
                 <img src={House1} alt="" />
-                <div>
-                  <h3>Lekki Phase 1</h3>
+                <div >
+            
+                  <div style={{display:'flex'}}>
+
+                        <div style={{color:'gold', margin:'20px 4px'}}>
+                    <FontAwesomeIcon icon={faStar}/>
+                      <FontAwesomeIcon icon={faStar}/>
+                        <FontAwesomeIcon icon={faStar}/>
+                          <FontAwesomeIcon icon={faStar}/>  <FontAwesomeIcon icon={faStarHalf}/>  
+                  </div>
+                  <p>5.0</p>
+                   </div>     
+
+
                   <div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    <h3>Famouse Pluto Homes</h3>
+                      <div style={{display:'flex',gap:'20px'}}>
+                      <FontAwesomeIcon icon={faLocationPin} style={{color:'red'}}/>
+                       <h3 style={{position:'relative', top:'-20px'}}>Lekki Phase 1</h3>
+                       </div>
+                      
+                  </div>
+                  {/* <div style={{margin:'10px 0', position:'relative', top:'-16px',textAlign:'left',width:'80%', fontSi}}>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero repellendus cum quam voluptas corrupti!
+                  </div> */}
+                  <div className='mamaapaerte'>
+                    <div className='apertmentsredire'>
+                      <div className=''>
+                        <FontAwesomeIcon icon={faBed}/>
+                      </div>
                       <h4>5Bed</h4>
                     </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+
+                      {/* costome divider instead of using hr tag */}
+                     <div style={{backgroundColor:'gray',height:'20px', width:'2px'}}></div>
+
+                    <div className='apertmentsredire'>
+                       <div className=''>
+                        <FontAwesomeIcon icon={faToilet}/>
+                      </div>
                       <h4>4 Toilets</h4>
                     </div>
-                  </div>
-                  <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+
+                    {/* costome divider instead of using hr tag */}
+                     <div style={{backgroundColor:'gray',height:'20px', width:'2px'}}></div>
+
+                      <div className='apertmentsredire'>
+                       <div className=''>
+                      <FontAwesomeIcon icon={faSquare}/>
+                      </div>
                       <h4>200ft</h4>
                     </div>
+                  </div>
+
                   <div>
                     <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
-              <div className='HeadThree-sub2-sub1'>
+
+              <div className='HeadThree-sub2-sub1 subsosubsss'>
                 <img src={House1} alt="" />
                 <div>
-                  <h3>Lekki Phase 1</h3>
+
+                  <div style={{display:'flex'}}>
+                     <div style={{color:'gold', margin:'20px 4px'}}>
+                    <FontAwesomeIcon icon={faStar}/>
+                      <FontAwesomeIcon icon={faStar}/>
+                        <FontAwesomeIcon icon={faStar}/>
+                          <FontAwesomeIcon icon={faStar}/>  <FontAwesomeIcon icon={faStarHalf}/>  
+                         </div>
+                         <p>
+                          4.0
+                         </p>
+                  </div>
+
                   <div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>5Bed</h4>
-                    </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>4 Toilets</h4>
-                    </div>
+
                   </div>
                   <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    <h3>Famouse Pluto Homes</h3>
+
+                      <div style={{display:'flex',gap:'20px'}}>
+                      <FontAwesomeIcon icon={faLocationPin} style={{color:'red'}}/>
+                       <h3 style={{position:'relative', top:'-20px'}}>Lekki Phase 1</h3>
+                       </div>
+
+                  </div>
+                  <div className='mamaapaerte'>
+                    <div className='apertmentsredire'>
+                      <div className=''>
+                        <FontAwesomeIcon icon={faBed}/>
+                      </div>
+                      <h4>5Bed</h4>
+                    </div>
+
+                      {/* costome divider instead of using hr tag */}
+                     <div style={{backgroundColor:'gray',height:'20px', width:'2px'}}></div>
+
+                    <div className='apertmentsredire'>
+                       <div className=''>
+                        <FontAwesomeIcon icon={faToilet}/>
+                      </div>
+                      <h4>4 Toilets</h4>
+                    </div>
+
+                    {/* costome divider instead of using hr tag */}
+                     <div style={{backgroundColor:'gray',height:'20px', width:'2px'}}></div>
+
+                      <div className='apertmentsredire'>
+                       <div className=''>
+                      <FontAwesomeIcon icon={faSquare}/>
+                      </div>
                       <h4>200ft</h4>
                     </div>
+                  </div>
+
                   <div>
                     <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
-              <div className='HeadThree-sub2-sub1'>
+
+              <div className='HeadThree-sub2-sub1 subsosubsss'>
                 <img src={House2} alt="" />
               <div>
-                  <h3>Lekki Phase 1</h3>
+                <div style={{display:'flex'}}>
+                    
+                    <div style={{color:'gold',margin:'20px 4px'}}>
+                    <FontAwesomeIcon icon={faStar}/>
+                      <FontAwesomeIcon icon={faStar}/>
+                        <FontAwesomeIcon icon={faStar}/>
+                          <FontAwesomeIcon icon={faStar}/>  <FontAwesomeIcon icon={faStarHalf}/>  
+                  </div>
+                  <p>4.0</p>
+                </div>
                   <div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+                    <h3>Famouse Pluto Homes</h3>
+                        <div style={{display:'flex',gap:'20px'}}>
+                      <FontAwesomeIcon icon={faLocationPin} style={{color:'red'}}/>
+                       <h3 style={{position:'relative', top:'-20px'}}>Lekki Phase 1</h3>
+                       </div>
+                  </div>
+                 
+                  <div className='mamaapaerte'>
+                    <div className='apertmentsredire'>
+                      <div className=''>
+                        <FontAwesomeIcon icon={faBed}/>
+                      </div>
                       <h4>5Bed</h4>
                     </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+
+                      {/* costome divider instead of using hr tag */}
+                     <div style={{backgroundColor:'gray',height:'20px', width:'2px'}}></div>
+
+                    <div className='apertmentsredire'>
+                       <div className=''>
+                        <FontAwesomeIcon icon={faToilet}/>
+                      </div>
                       <h4>4 Toilets</h4>
                     </div>
-                  </div>
-                  <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
+
+                    {/* costome divider instead of using hr tag */}
+                     <div style={{backgroundColor:'gray',height:'20px', width:'2px'}}></div>
+
+                      <div className='apertmentsredire'>
+                       <div className=''>
+                      <FontAwesomeIcon icon={faSquare}/>
+                      </div>
                       <h4>200ft</h4>
                     </div>
+                  </div>
+
+                
                   <div>
                     <h3>Price: ₦3,000,000</h3>
                   </div>
                 </div>
               </div>
 
-              <div className='HeadThree-sub2-sub1'>
-                <img src={House3} alt="" />
-              <div>
-                  <h3>Lekki Phase 1</h3>
-                  <div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>5Bed</h4>
-                    </div>
-                    <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>4 Toilets</h4>
-                    </div>
-                  </div>
-                  <div>
-                      {/* <i class="fas fa-accessible-icon    "></i> */}
-                      <h4>200ft</h4>
-                    </div>
-                  <div>
-                    <h3>Price: ₦3,000,000</h3>
-                  </div>
-                </div>
-              </div>
+             
 
 
-            </div>
         </div>
+
+
+        </div>
+
+
         <div className='headtb'>
             <h1>Market Overview in Nigeria</h1>
             <div className='firstoffirsttb'>
@@ -284,6 +454,7 @@ const TheWealth=()=>{
               <div><h2>100,000,000</h2></div>
               
             </div>
+            
             </div>
             
             <div className='headtb firstoffirsttb2' >
@@ -317,6 +488,19 @@ const TheWealth=()=>{
             </div>
             </div>
         </div>
+
+          <div>
+            <div>
+              <h3>Book Apointment</h3>
+              <p>Send Message Anytime</p>
+            </div>
+
+            
+<div>
+  <ContactForm/>
+</div>
+            
+          </div>
       </div>
     </div>
   )
