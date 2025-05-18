@@ -39,10 +39,10 @@ function ContactForm() {
         onChange={handleChange}
         required
         style={{width:'20%',marginRight:'50px',padding:' 20px',borderRadius:
-          '20px'
+          '10px', border:"2px solid gray"
         }}
 
-        placeholder="Full Namw"
+        placeholder="Full Name"
       />
 
       {/* <label htmlFor="email">Email Address:</label> */}
@@ -54,14 +54,14 @@ function ContactForm() {
         onChange={handleChange}
         required
         style={{width:'20%',padding:' 20px',borderRadius:
-          '10px'
+          '10px', border:"2px solid gray"
         }}
         placeholder="Email"
       />
 
-      <div>
+      <div style={{padding:'15px', width:'283px',margin:"14px 0",borderRadius:'19px', position:"relative", left:'-12px'}}>
         <select
-         style={{padding:'30px'}}
+         style={{border:'2px solid gray',width:"245%", height:'55px', }}
           id="estate"
           name="estate"
           value={formData.estate}
@@ -77,10 +77,10 @@ function ContactForm() {
 
 
       <div>
-        <textarea name="Message" id=""></textarea>
+        <textarea name="Message" id="" style={{borderRadius:'10px',border:'2px solid gray', width:'48.5%', height:'20vh', padding:"10px"}} placeholder="Your Message"></textarea>
       </div>
       <div className="buttons" style={{ textAlign: "center" }}>
-        <button type="submit" style={{ padding: "10px 140px" }}>
+        <button className="formsub33" type="submit" style={{ padding: "20px 140px" }}>
           Submit
         </button>
       </div>

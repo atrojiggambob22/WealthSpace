@@ -6,6 +6,8 @@
   font-optical-sizing: auto;
   font-weight:500;
   font-style: normal;
+  /* padding: 0; */
+  /* margin: 0; */
  
 }
 .BabaWealth{
@@ -27,7 +29,7 @@
      background-size:cover;
      background-position: center;
      height:90vh;
-     margin: 0;
+     margin:20px;
      padding: 0;
 }
 .HeadONe{
@@ -43,8 +45,9 @@
     margin-bottom: 30px;
     margin: 80px 50px;
      color:#dcf3a2;
-     font-size: 19px;
+     font-size:29px;
       text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+      text-align: left !important;
 }
 .HeadONe h1{
    font-size:120px;
@@ -89,6 +92,12 @@
 .HeadTWo p{
     font-weight: 700;
 } */
+
+
+/* The Second Phase */
+.AprtTypes{
+    margin:50px;
+}
  .AprtTypes h3,p{
     text-align: center;
  }
@@ -138,7 +147,8 @@
     text-align: center;
 }
 .HeadThree-sub1 h3{
-    font-size: 25px;
+    font-size: 45px;
+
 }
 .HeadThree-sub2{
     display: flex;
@@ -336,6 +346,173 @@
     position: relative;
     left: 30%;
 }
+/* style for the form */
+.thhemforms-main{
+    background-image: url(../public/images/globepic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 50px;
+    margin: 15px;
+    /* position: relative;
+    left: 1% !important; */
+   
+}
+.basicform{
+    position: absolute;
+    left: 60px;
+    padding-top: 40px;
+}
+/* .thhemforms-main{
+    position: relative;
+    left: 80px;
+} */
+.thhemforms p{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+.thhemforms h3{
+    position:relative;
+    top: 40px;
+}
+.basicform{
+    position: relative;
+}
+.formsub33{
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+    margin: 90px 0;
+    /* align-items: left; */
+    position: relative;
+    left:-530px;
+    top:-60px;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+}
+.formsub33:hover{
+    border: green 4px solid;
+    color: white;
+    background-color: rgb(8, 36, 5);
+
+}
+/* Styling for the footer */
+footer{
+    margin: 120px;
+   
+    
+    
+}
+.ThemFoots{
+    color: white;
+     background-color: rgba(16, 57, 24, 0.913);
+     padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    left: -10px;
+}
+.thhenicons{
+    text-align: center;
+    position: relative;
+    top: -1px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 15px;
+}
+.beforeic{
+    border: 2px solid rgba(255, 255, 255,0.7);
+    /* opacity: 0.8; */
+    border-radius:50%;
+    padding: 12px;
+    position: relative;
+    top:-2px;
+}
+.subthemfoots{
+    gap: 20px;
+    display: flex;
+    align-items:start !important;
+    text-align: left !important;
+}
+.subthemfoots p{
+    font-size: 14px;
+    opacity: 0.8;
+    position:relative;
+    top:12px;
+     align-items:start !important;
+    text-align: left !important;
+}
+/* the last part of the footer */
+.ThemFoots2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 120px 0;
+    position: relative;
+    left: 50px;
+    gap: 150px;
+    
+}
+.ThemFoots2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.ThemFoots2 p{
+    text-align: left !important;
+    align-items: start !important;
+}
+
+.minipics2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    
+}
+.minipics2 img{
+   width:130% !important;
+    /* margin: 15px; */
+    margin-bottom: 0px;
+    border-radius: 10px;
+    box-shadow:rgba(0, 0, 0, 0.516) 0px 10px 35px 1px;
+  
+}
+
+.main-figimgs p{
+    position: relative;
+    top:10px;
+}
+.Fimages img{
+    width:30px;
+    position: relative;
+    top:-40px;
+    left:90px;
+    margin: 4px;
+
+}
+.Discop p{
+    margin: 25px 0;
+}
+.Discop p:hover{
+    color: green;
+    font-weight:800;
+    cursor: pointer;
+}
+.lastfoot{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.minlastfoot{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 @media screen and  (width<=750px){
     .HeadThree-sub2{
         flex-direction:column  !important;

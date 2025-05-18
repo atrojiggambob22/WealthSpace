@@ -3,8 +3,13 @@ import House1 from '../public/images/House1.png'
 import House2 from '../public/images/House2.jpg' 
 import House3 from '../public/images/House3.jpg' 
 import NavBar from './NavBar.jsx'
+import facebook from '../public/images/facebook.png'
+import instagram from '../public/images/instagram.png'
+import mainWha from '../public/images/mainWha.png'
+import X from '../public/images/x.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBed,faToilet,faSquare,faBuilding,faWarehouse,faHome,faStore,faHouseChimney, faStar, faStarHalf, faLocation, faLocationPin, faLocationPinLock, faMapLocationDot, faLocationArrow} from '@fortawesome/free-solid-svg-icons'; 
+import { faBed,faToilet,faSquare,faBuilding,faWarehouse,faHome,faStore,faHouseChimney, faStar, faStarHalf, faLocation, faLocationPin, faLocationPinLock, faMapLocationDot, faLocationArrow, faMailBulk, faPhone} from '@fortawesome/free-solid-svg-icons'; 
 import './Wealthspace.css'
 import { Warehouse } from 'lucide-react'
 import ContactForm from './ContactForm.jsx'
@@ -114,7 +119,7 @@ const TheWealth=()=>{
         <div className='HeadThree'>
             <div className='HeadThree-sub1'>
               <p>Best Choices</p>
-              <h3>Popular Properties</h3>
+              <h3>Popular <span style={{color:"green"}}>Properties</span></h3>
             </div>
 
               <div className='thheheadsss'>
@@ -489,17 +494,121 @@ const TheWealth=()=>{
             </div>
         </div>
 
-          <div>
-            <div>
-              <h3>Book Apointment</h3>
-              <p>Send Message Anytime</p>
+          <div className='thhemforms-main'>
+            <div className='basicform'>
+
+              <div className='thhemforms'>
+                    <h3>Book Apointment</h3>
+                    <p>Send Message <span style={{color:"green"}}>Anytime</span> </p>
             </div>
 
             
-<div>
-  <ContactForm/>
-</div>
+              <div>
+                <ContactForm/>
+              </div>
+
+            </div>
+           
             
+          </div>
+
+          <div>
+            <footer>
+              <div className='ThemFoots'>
+                <div className='subthemfoots'>
+                  <div className='beforeic'>
+                    <FontAwesomeIcon icon={faLocationPin} className='thhenicons'/>
+                  </div>
+                  <div>
+                    <p>Adress</p>
+                    <h3>613 Ekeki Road,Bayelsa</h3>
+                  </div>
+                </div>
+
+                <div className='subthemfoots'>
+                  <div className='beforeic'>
+                    <FontAwesomeIcon icon={faMailBulk} className='thhenicons'/>
+                  </div>
+                  <div>
+                    <p>Send Mail</p>
+                    <h3>mathiasonyebuchi13@gmail.com</h3>
+                  </div>
+                </div>
+
+                <div className='subthemfoots'>
+                  <div className='beforeic'>
+                    <FontAwesomeIcon icon={faPhone} className='thhenicons'/>
+                  </div>
+                  <div>
+                    <p>Call Emergency</p>
+                    <h3>+234 9061 4468 48</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div  className='ThemFoots2'>
+                      <div>
+                        <div>
+                          <div>
+                            {/* Logo */}
+                          </div>
+                          <div>
+                           <h3>Wealth-<span style={{color:"green"}}>Space</span></h3>
+                           <p>Living Solution</p>
+                          </div>
+                        </div>
+                        <div style={{margin:'40px 0'}}>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum quae aut quas totam dicta quo autem eum facere.</p>
+                        </div>
+                        <div className='main-figimgs'>
+                          <p>Follow On</p>
+                          <div className='Fimages
+                          ' style={{display:'flex'}}>
+                            {/* <FontAwesomeIcon icon={faFacebook}/> */}
+                            <img src={mainWha} alt="" />
+                            <img src={instagram} alt="" />
+                            <img src={X} alt="" />
+                            <img src={facebook} alt="" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <h3>Discover</h3>
+                        <div className='Discop'>
+                          <p>About</p>
+                          <p>Our Team</p>
+                          <p>Testimonials</p>
+                          <p>Gallery</p>
+                          <p>Contact</p>
+                        </div>
+                      </div>
+                      <div className='minipics'>
+                        <h3>Gallery</h3>
+                        <div className='minipics2'>
+                          <img src={House1} alt="" />
+                           <img src={House1} alt="" />
+                            <img src={House1} alt="" /> 
+                            <img src={House1} alt="" />
+                             <img src={House1} alt="" />
+                               <img src={House1} alt="" />
+                        </div>
+                      </div>
+                      <div></div>
+                     
+                      
+              </div>
+               <hr  style={{opacity:"0.6", height:'2px'}}/>
+              <div className='lastfoot'>
+                        <div>
+                         <p>2025 Copyrights by ChrisCodesDaily. AllRighhts Reserved</p>
+                        </div>
+                        <div className='minlastfoot'>
+                          <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                        </div>
+                  </div>
+            </footer>
           </div>
       </div>
     </div>
