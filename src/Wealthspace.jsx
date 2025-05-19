@@ -9,7 +9,7 @@ import mainWha from '../public/images/mainWha.png'
 import X from '../public/images/x.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBed,faToilet,faSquare,faBuilding,faWarehouse,faHome,faStore,faHouseChimney, faStar, faStarHalf, faLocation, faLocationPin, faLocationPinLock, faMapLocationDot, faLocationArrow, faMailBulk, faPhone} from '@fortawesome/free-solid-svg-icons'; 
+import { faBed,faToilet,faSquare,faBuilding,faWarehouse,faHome,faStore,faHouseChimney, faStar, faStarHalf, faLocation, faLocationPin, faLocationPinLock, faMapLocationDot, faLocationArrow, faMailBulk, faPhone, faArrowRight} from '@fortawesome/free-solid-svg-icons'; 
 import './Wealthspace.css'
 import { Warehouse } from 'lucide-react'
 import ContactForm from './ContactForm.jsx'
@@ -37,7 +37,29 @@ const TheWealth=()=>{
         <div className='HeadONe  BabaWealth434'>
           <h1>Find your most <br />suitable Apartment</h1>
           <p>Huge number of Houses here to Buy,Sell and Rent,There are <br /> Also properties ou can Co-live in.So there are a lot  of opportunity to grab</p>
-          <button>Contact Us</button>
+          <div style={{display:'flex',gap:'20px'}}>
+            <div>
+               <button>Contact Us
+                 <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/>
+               </button>
+                
+            </div>
+              <div>
+               <button>Villa  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+               
+            </div>
+              <div>
+               <button>Sales  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+               
+            </div>
+              <div >
+               <button>About Us
+                 <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+                
+            </div>
+              
+          </div>
+          
         </div>
 
         {/* <div className='HeadTWo'>
@@ -119,7 +141,7 @@ const TheWealth=()=>{
         <div className='HeadThree'>
             <div className='HeadThree-sub1'>
               <p>Best Choices</p>
-              <h3>Popular <span style={{color:"green"}}>Properties</span></h3>
+              <h3> <span style={{fontWeight:"500"}}>Popular</span>  <span style={{color:"green",fontWeight:"300"}}>Properties</span></h3>
             </div>
 
               <div className='thheheadsss'>
@@ -601,7 +623,7 @@ const TheWealth=()=>{
                <hr  style={{opacity:"0.6", height:'2px'}}/>
               <div className='lastfoot'>
                         <div>
-                         <p>2025 Copyrights by ChrisCodesDaily. AllRighhts Reserved</p>
+                         <p>2025 Copyrights by ChrisCodesDaily. All Rights Reserved</p>
                         </div>
                         <div className='minlastfoot'>
                           <p>Terms & Conditions</p>

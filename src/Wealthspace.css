@@ -61,20 +61,25 @@
 }
 .HeadONe button{
     padding: 15px 60px;
+    font-weight:700 !important;
+    font-size: 14px;
     color: rgb(255, 255, 255);
-    background-color:darkgreen;
+    /* border: 2px solid rgba(0, 0, 0, 0.783) !important; */
+    /* background: none !important; */
+    background-color:#d7ce1efc;
+    box-shadow: 0 10px 20px black;
     opacity: 0.9;
     border: none;
     font-weight:700;
-    border-radius: 50px;
+    border-radius: 120px;
     position: relative;
     left: 50px;
     transition: .2s ease-in-out;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .HeadONe button:hover{
-    background-color: #dcf3a2;
-    color: black;
+    /* background-color: #dcf3a2; */
+    /* color: black; */
 }
 
 /* .HeadTWo{
@@ -326,10 +331,11 @@
     padding:10px 0;    
 }
 .ehadione{
+    background-color: rgba(211, 211, 211, 0.552);
     display: flex;
     gap: 40px;
     margin-bottom:50px ;
-    box-shadow:rgba(137, 136, 136, 0.516) 0px 10px 45px 1px inset;
+    box-shadow:rgba(137, 136, 136, 0.516) 0px 10px 45px 1px;
     border-radius: 30px;
     width: 60%;
     padding: 40px;
