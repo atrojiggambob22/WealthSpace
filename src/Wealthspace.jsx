@@ -84,7 +84,7 @@ const TheWealth=()=>{
             <div className='Aprtsub2'>
               <div className='Aprtsub2-111'>
                 <div className='Asub22-min2'>
-                  <FontAwesomeIcon icon={faBuilding}/>
+                  <FontAwesomeIcon icon={faBuilding} className=" Asub22-min22" />
                 </div>
                 <div className='Asub2-min3'>
                   <h3>
@@ -96,7 +96,7 @@ const TheWealth=()=>{
 
                <div className='Aprtsub2-111'>
                 <div className='Asub22-min2'>
-                  <FontAwesomeIcon icon={faHouseChimney}/>
+                  <FontAwesomeIcon icon={faHouseChimney} className=" Asub22-min22"/>
                 </div>
                 <div className='Asub2-min3'>
                   <h3>Villa</h3>
@@ -106,7 +106,7 @@ const TheWealth=()=>{
 
               <div className='Aprtsub2-111'>
                 <div className='Asub22-min2'>
-                  <FontAwesomeIcon icon={faWarehouse}/>
+                  <FontAwesomeIcon icon={faWarehouse} className=" Asub22-min22"/>
                 </div>
                 <div className='Asub2-min3'>
                   <h3>Warehouse</h3>
@@ -116,7 +116,7 @@ const TheWealth=()=>{
              
               <div className='Aprtsub2-111'>
                 <div className='Asub22-min2'>
-                  <FontAwesomeIcon icon={faHome}/>
+                  <FontAwesomeIcon icon={faHome} className=" Asub22-min22"/>
                 </div>
                 <div className='Asub2-min3'>
                   <h3>Apartment</h3>
@@ -126,7 +126,7 @@ const TheWealth=()=>{
 
               <div className='Aprtsub2-111'>
                 <div className='Asub22-min2'>
-                  <FontAwesomeIcon icon={faStore}/>
+                  <FontAwesomeIcon icon={faStore} className=" Asub22-min22"/>
                 </div>
                 <div className='Asub2-min3'>
                   <h3>HomeStay</h3>
