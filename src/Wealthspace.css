@@ -32,6 +32,9 @@
      margin:20px;
      padding: 0;
 }
+.themHeadsisi{
+    display: none !important;
+}
 .HeadONe{
     border-radius: 50px;
     z-index: 10000;
@@ -122,6 +125,7 @@
     
  }
  .Aprtsub2-111{
+    background-color:rgb(2, 2, 34);
     border: 0.3px rgb(255, 255, 255) solid;
     padding: 40px;
     border-radius: 20px;
@@ -338,8 +342,9 @@
     box-shadow:rgba(137, 136, 136, 0.516) 0px 10px 45px 1px;
     border-radius: 30px;
     width: 60%;
-    padding: 40px;
+    padding: 60px;
 }
+
 .firstphaseimg{
      position: relative;
     left: 260px;
@@ -518,7 +523,101 @@ footer{
     justify-content: space-between;
     gap: 20px;
 }
+@media (min-width:250px) and (max-width:800px){
+    .themHeadsisi{
+        display: block !important;
+    }
+    .HeadONe h1{
+        font-size:67px;
+        width: 14%;
+        /* line-height:0.12; */
+        /* text-wrap:nowrap; */
+        position: relative;
+        left:-25px;
+    }
+    .HeadONe p{
+        font-size:15px;
+        width:93%;
+        /* text-wrap: nowrap; */
+        position: relative;
+        left:-40px;
+    }
+   .HeadONe button{
+        font-size: 10px;
+        text-wrap: nowrap;
+        border-radius: 15px;
+        max-width:90% ;
+        padding:10px 50px;
+    }
+    .ininininninehads{
+       display: grid !important;
+       grid-template-columns: repeat(2,1fr);
+       position: relative;
+       left: -40px;
+    }
+    .Aprtsub2{
+        display: flex !important;
+        flex-direction: column !important;
+       
+    }
+     .Aprtsub2-111{
+        margin-bottom: 20px;
+        border: 3px solid rgb(255, 255, 255) !important;
+     }
+     .Asub22-min2{
+            border: 3px solid rgb(255, 255, 255) !important;
+     }
 
+      .Aprtsub2{
+        background-color: #fff;
+      }
+     
+      .ehadione{
+       background-color: rgba(241, 241, 241, 0.64);
+        flex-direction: column;
+        margin:140px 80px;
+        width:100%;
+        position: relative;
+        left: -145px;
+        box-shadow: none;
+        
+        transition: .2s ease-in-out !important;
+        
+        /* text-align: left; */
+      }
+      .ehadione img{
+        width: 140% !important;
+        position: relative;
+        left: -20px;
+      }
+      /* .ehadione:hover{
+        background:linear-gradient(rgba(0, 255, 51, 0.761), rgba(0, 0, 255, 0.72));
+        color: white;
+      } */
+
+      .firstphase:hover{
+         font-weight:900 !important;
+      }
+      .firstphase{
+        position: relative;
+        left: -25px;
+      }
+      .giigii{
+        display: none !important;
+      }
+
+
+      .subsosubsss{
+        margin-bottom:80px;
+        position: relative;
+        left: -10px;
+      }
+      .subsosubsss img{
+        width: 105% !important;
+        position: relative;
+        left: -8px;
+      }
+}
 @media screen and  (width<=750px){
     .HeadThree-sub2{
         flex-direction:column  !important;

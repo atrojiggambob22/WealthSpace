@@ -37,23 +37,23 @@ const TheWealth=()=>{
         <div className='HeadONe  BabaWealth434'>
           <h1>Find your most <br />suitable Apartment</h1>
           <p>Huge number of Houses here to Buy,Sell and Rent,There are <br /> Also properties ou can Co-live in.So there are a lot  of opportunity to grab</p>
-          <div style={{display:'flex',gap:'20px'}}>
+          <div style={{display:'flex',gap:'20px'}} className='ininininninehads'>
             <div>
                <button>Contact Us
                  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/>
                </button>
                 
             </div>
-              <div>
-               <button>Villa  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+              <div className='themHeadsisi'>
+               <button>Service  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
                
             </div>
-              <div>
-               <button>Sales  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+              <div className='themHeadsisi'>
+               <button>Contact <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
                
             </div>
-              <div >
-               <button>About Us
+              <div className='themHeadsisi' >
+               <button>About 
                  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
                 
             </div>
@@ -144,8 +144,9 @@ const TheWealth=()=>{
               <h3> <span style={{fontWeight:"500"}}>Popular</span>  <span style={{color:"green",fontWeight:"300"}}>Properties</span></h3>
             </div>
 
-              <div className='thheheadsss'>
-                   <div className='HeadThree-sub2'>
+          <div className='thheheadsss'>
+            <div className='HeadThree-sub2'>
+              
               <div className='ehadione'>
                 <img src={House1} alt="" />
                 <div className='firstphase'>
@@ -176,7 +177,7 @@ const TheWealth=()=>{
                 </div>
               </div>
 
-              <div className='ehadione ediitrerf'>
+              <div className='ehadione ediitrerf giigii'>
                
               <div>
                   <h3>Lekki Phase 1</h3>
