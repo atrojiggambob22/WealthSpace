@@ -39,22 +39,19 @@ const TheWealth=()=>{
           <p>Huge number of Houses here to Buy,Sell and Rent,There are <br /> Also properties ou can Co-live in.So there are a lot  of opportunity to grab</p>
           <div style={{display:'flex',gap:'20px'}} className='ininininninehads'>
             <div>
-               <button>Contact Us
-                 <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/>
+               <button className='themHeadsisi'>Find a home
+                
                </button>
                 
             </div>
               <div className='themHeadsisi'>
-               <button>Service  <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+               <button>Service </button>
                
             </div>
-              <div className='themHeadsisi'>
-               <button>Contact <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
-               
-            </div>
+              
               <div className='themHeadsisi' >
                <button>About 
-                 <FontAwesomeIcon icon={faArrowRight} style={{position:"relative", left:'20px'}}/></button>
+                </button>
                 
             </div>
               

@@ -74,7 +74,9 @@ function ContactForm() {
         >
           <option value="">Real Estate-</option>
           <option value="Property">Property</option>
-          <optformsub33ion value="Duplex">Duplex</optformsub33ion>
+          <option value="Duplex">Duplex</option>
+        <option value="Duplex">2 Bed Flat</option>
+        <option value="Duplex">3 Bed Flat</option>
         </select>
       </div>
 

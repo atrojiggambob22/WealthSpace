@@ -18,11 +18,9 @@
 }
 .Tge-bar{
     margin: 20px !important;
-    z-index:11110;
+   
 }
-.thewealthsd{
-    z-index: 0;
-}
+
 .BabaWealth434{
     background-image: url(../public/images/roofs.jpg) !important;
     background-repeat: no-repeat; 
@@ -33,11 +31,11 @@
      padding: 0;
 }
 .themHeadsisi{
-    display: none !important;
+    display: block !important;
 }
 .HeadONe{
     border-radius: 50px;
-    z-index: 10000;
+    
     top:-90px;
     margin:'100px';
     position: relative;
@@ -47,9 +45,10 @@
 .HeadONe p{
     margin-bottom: 30px;
     margin: 80px 50px;
-     color:#dcf3a2;
+     color:#c9ff41;
      font-size:29px;
-      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.943);
+      /* text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); */
       text-align: left !important;
 }
 .HeadONe h1{
@@ -60,7 +59,7 @@
    top: 80px;
    /* background-color: rgba(255, 255, 255, 0.514); */
    color:#FFFACD;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.943);
 }
 .HeadONe button{
     padding: 15px 60px;
@@ -521,8 +520,13 @@ footer{
     gap: 20px;
 }
 @media (min-width:250px) and (max-width:800px){
+
+   .HeadONe{
+    position: relative !important;
+    top: -40px !important;
+   }
     .themHeadsisi{
-        display: block !important;
+        display: none!important;
     }
     .HeadONe h1{
         font-size:57px;
@@ -551,6 +555,8 @@ footer{
        grid-template-columns: repeat(2,1fr);
        position: relative;
        left: -40px;
+       top:-60px;
+       
     }
     .AprtTypes{
         padding: 10px 20px !important;
@@ -580,7 +586,7 @@ footer{
      }
      .Asub22-min22{
         position: relative;
-        left:1px;
+        left:10px;
      }
 
       
@@ -623,12 +629,15 @@ footer{
       .subsosubsss{
         margin-bottom:80px;
         position: relative;
-        left: -10px;
+        left:4px;
       }
       .subsosubsss img{
         width: 105% !important;
         position: relative;
         left: -8px;
+      }
+      .apertmentsredire{
+        gap: 5px;
       }
 
       .headtb h2{
