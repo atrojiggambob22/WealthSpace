@@ -461,12 +461,13 @@ const TheWealth=()=>{
               
               </div>
             </div>
+          <div className='masterminit'>
             <div className="minitb" >
               <div><h2>SYDNEY ESTATE</h2></div>
               <div><p>4966.67 %</p></div>
               <div><h2>390,000,000</h2></div>
             </div>
-            <div className="minitb" >
+            <div className="minitb minitb33" >
               <div><h2>ALOMOLARAM ESTATE</h2></div>
               <div><p>89900.00 %</p></div>
               <div><h2>270,000,000</h2></div>
@@ -482,6 +483,8 @@ const TheWealth=()=>{
               <div><h2>100,000,000</h2></div>
               
             </div>
+            </div>
+            
             
             </div>
             
@@ -506,9 +509,9 @@ const TheWealth=()=>{
             <div className="minitb" >
               <div><h2>BALAFUN ESTATE</h2></div>
               <div><p>-90.00 %</p></div>
-              <div><h2>1,000,000</h2></div>
+              <div><h2>1,000,000/Year</h2></div>
             </div>
-            <div className="minitb" >
+            <div className="minitb minitb33" >
               <div><h2>DOC GARDENS ESTATE ESTATE.</h2></div>
               <div><p>-72.00 %</p></div>
               <div><h2>5,000,000</h2></div>
@@ -576,12 +579,12 @@ const TheWealth=()=>{
                             {/* Logo */}
                           </div>
                           <div>
-                           <h3>Wealth-<span style={{color:"green"}}>Space</span></h3>
-                           <p>Living Solution</p>
+                           <h3 style={{textWrap:'nowrap'}}>Wealth-<span style={{color:"green"}}>Space</span></h3>
+                           <p className='Themlingdss'>Living Solution</p>
                           </div>
                         </div>
-                        <div style={{margin:'40px 0'}}>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum quae aut quas totam dicta quo autem eum facere.</p>
+                        <div className='underfoot' style={{margin:'40px 0'}}>
+                          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum quae aut quas totam dicta quo autem eum facere.</p>
                         </div>
                         <div className='main-figimgs'>
                           <p>Follow On</p>
@@ -596,7 +599,7 @@ const TheWealth=()=>{
                         </div>
                       </div>
 
-                      <div>
+                      <div className='unederthemiun'>
                         <h3>Discover</h3>
                         <div className='Discop'>
                           <p>About</p>

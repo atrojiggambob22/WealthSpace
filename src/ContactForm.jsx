@@ -30,7 +30,8 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      {/* <label htmlFor="fullName">Full Name:</label> */}
+      <div className="themfror">
+             {/* <label htmlFor="fullName">Full Name:</label> */}
       <input
         type="text"
         id="fullName"
@@ -58,8 +59,10 @@ function ContactForm() {
         }}
         placeholder="Email"
       />
+      </div>
+     
 
-      <div style={{padding:'15px', width:'283px',margin:"14px 0",borderRadius:'19px', position:"relative", left:'-12px'}}>
+      <div style={{padding:'15px', width:'283px',margin:"14px 0",borderRadius:'19px', position:"relative", left:'-12px'}} className="thhemztatss" >
         <select
          style={{border:'2px solid gray',width:"245%", height:'55px', }}
           id="estate"
@@ -71,13 +74,13 @@ function ContactForm() {
         >
           <option value="">Real Estate-</option>
           <option value="Property">Property</option>
-          <option value="Duplex">Duplex</option>
+          <optformsub33ion value="Duplex">Duplex</optformsub33ion>
         </select>
       </div>
 
 
       <div>
-        <textarea name="Message" id="" style={{borderRadius:'10px',border:'2px solid gray', width:'48.5%', height:'20vh', padding:"10px"}} placeholder="Your Message"></textarea>
+        <textarea name="Message" id="themaressa" style={{borderRadius:'10px',border:'2px solid gray', width:'48.5%', height:'20vh', padding:"10px"}} placeholder="Your Message"></textarea>
       </div>
       <div className="buttons" style={{ textAlign: "center" }}>
         <button className="formsub33" type="submit" style={{ padding: "20px 140px" }}>
